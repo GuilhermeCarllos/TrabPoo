@@ -4,6 +4,9 @@ public class Automotc {
 	String modelo, marca, cor;
 	int ano, cilin;
 	
+	public Automotc() {}
+	
+	
 	public Automotc(String marca, String modelo, int ano, String cor, int cilin) {
         this.marca = marca;
         this.modelo = modelo;
