@@ -4,6 +4,8 @@ public class Autocar {
 	String modelo, marca,cor;
 	int ano, num_port;
 	
+	public Autocar() {}
+	
 	 
 	 public Autocar(String marca, String modelo, int ano, String cor, int num_port) {
 	        this.marca = marca;
